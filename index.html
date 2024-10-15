@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jurusan Teknologi Informasi</title>
+    <style>
+      .img-carousel{
+        width:100%;
+        height: 25vw;
+        display:inline-block;
+        object-fit: cover;
+      }
+      .background{
+        background-color: darkblue;
+      }
+      .img-content{
+        width:100%;
+        height: 15vw;
+        display:inline-block;
+        object-fit: cover;
+      }
+      .img-resolution{
+        width: 300px;
+        height: 400px;
+        display: inline-block;
+        object-fit: cover;
+      }
+      
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- Heading -->
+    <div class="py-1 bg-primary text-light text-end">
+      <div class="container">
+        <i class="bi bi-facebook me-2"></i>
+        <i class="bi bi-instagram me-2"></i>
+        <i class="bi bi-youtube me-2" ></i>
+        <i class="bi bi-tiktok me-2"></i>
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+      
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <div class="container" >
+          <a class="navbar-brand" href="#">
+            <img src="https://ti.pnp.ac.id/wp-content/uploads/2022/01/logo-ti-pnp-05-1.png  " class=".." alt="..">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Program Studi
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="#">Teknik Komputer</a></li>
+                  <li><a class="dropdown-item" href="#">Teknologi Rekayasa Perangkat Lunak</a></li>
+                  <li><a class="dropdown-item" href="#">Manajemen Informatika</a></li>
+                  <li><a class="dropdown-item" href="#">Animasi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/ti-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ti-2.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ti-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="bg-info pt-3 pb-2">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <h4>Penerimaan Mahasiswa Baru</h4>
+              <p>Informasi Tentang Penerimaan Mahasiswa Baru Politeknik Negeri Padang</p>
+            </div>
+            <a href="https://penerimaan.pnp.ac.id/" class="btn btn-light ">Tampilkan Lebih Banyak</a> 
+          </div>
+        </div>
+      </div>
+      
+      <!-- Content -->
+      <div class="container py-2 bg-light text-dark">
+        <h4 class="text-center">Selamat Datang di Jurusan Teknologi Informasi</h4>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card" >
+                    <img src="https://i.pinimg.com/236x/1a/84/35/1a8435b262f70dc441a52bf15a9c620d.jpg"  class="img-content" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kalendar Akademik</h5>
+                      <p class="card-text">Semua kegiatan proses pembelajaran Politeknik Negeri Padang dalam satu tahun akademik</p>
+                      <a href="https://ti.pnp.ac.id/index.php/kalender-akademik/" class="btn btn-primary">Klik Disini</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" >
+                    <img src="https://i.pinimg.com/236x/43/1e/0d/431e0d5c1894cbdaea28b4eb61643a23.jpg" class="img-content" alt="...">
+                    <div class="card-body max-content">
+                      <h5 class="card-title">Akreditasi Prodi</h5>
+                      <p class="card-text">Penilaian kelayakan Program Studi Jurusan Teknologi Informasi Politkenik Negeri Padang</p>
+                      <a href="https://ti.pnp.ac.id/index.php/akreditasi/" class="btn btn-primary">Klik Disini</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card" >
+                    <img src="https://i.pinimg.com/564x/a1/ef/0f/a1ef0fdb3d7ed2c2a6bbee4cf7adc3bf.jpg" class="img-content" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jadwal Kuliah</h5>
+                      <p class="card-text">Jadwal Perkuliahan Semester Ganjil TA 2024/2025 Jurusan Teknologi Informasi</p>
+                      <a href="https://presensi.pnp.ac.id/ti/" class="btn btn-primary">Klik Disini</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/4b/4f/65/4b4f65445dd831cd8c70f248eaaf8306.jpg " class="img-content" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Download Area</h5>
+                      <p class="card-text">Kumpulan Panduan / Standart Operating Prosedure Jurusan Teknologi Informasi</p>
+                      <a href="https://ti.pnp.ac.id/index.php/download/" class="btn btn-primary">Klik Disini</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <div class="container py-5 width:100%">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="card" >
+                    <img src="https://easy-peasy.ai/cdn-cgi/image/quality=70,format=auto,width=300/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/e12f14c4-60f9-4336-8b8c-96bc8ea4756a/1e04f26b-7cd4-4d18-b0b4-7021db4ce7e4.png" class="" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        SPADATI</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card" >
+                    <img src="https://i.pinimg.com/736x/b8/d1/65/b8d165596f7ddbef17c900259d31161e.jpg" class="" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">SITA</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card" >
+                    <img src="https://i.pinimg.com/control/236x/3e/7f/36/3e7f36d051ad077f76656033c31a4475.jpg" class="" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">SIAK</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card" >
+                    <img src="https://i.pinimg.com/control/564x/33/0e/20/330e20b067d10d53bca3c8a3dd69b204.jpg" class="" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">MBKM</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card">
+                    <img src="https://i.pinimg.com/control/564x/33/0e/20/330e20b067d10d53bca3c8a3dd69b204.jpg" class="" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">SATIK</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card">
+                    <img src="https://i.pinimg.com/control/564x/33/0e/20/330e20b067d10d53bca3c8a3dd69b204.jpg" class="" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">UKT</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <div class="text-center py-4">
+        <h3>BERITA TERBARU</h3>
+        <hr>
+        <p>Berita Seputar Jurusan Teknologi Informasi</p>
+      </div>
+        <div>
+          <div class="container py-1" >
+            <div class="row">
+              <div class="col-lg-8 px-1">
+                <div class="card">
+                  <img src="https://i.pinimg.com/736x/b8/d1/65/b8d165596f7ddbef17c900259d31161e.jpg" class="img-carousel"  alt="...">
+                </div>
+              </div>
+              <div class="col-lg-4 px-1">
+                  <img src="https://i.pinimg.com/control/236x/3e/7f/36/3e7f36d051ad077f76656033c31a4475.jpg" class="img-carousel" alt="...">
+                    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="container pt-1 pb-5">
+            <div class="row ">
+              <div class="col-lg-4 px-1">
+                <div class="card">
+
+                  <img src="https://i.pinimg.com/control/564x/33/0e/20/330e20b067d10d53bca3c8a3dd69b204.jpg" class="img-carousel" alt="...">
+                </div>
+                
+              </div>
+            <div class="col-lg-4 px-1">
+                <img src="https://i.pinimg.com/control/564x/33/0e/20/330e20b067d10d53bca3c8a3dd69b204.jpg" class="img-carousel"  alt="...">
+              </div>
+              <div class="col-lg-4 px-1">
+                <img src="https://i.pinimg.com/control/564x/33/0e/20/330e20b067d10d53bca3c8a3dd69b204.jpg" class="img-carousel"  alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-5 text-center background text-light">
+          <div class="row ">
+            <div class="col-md-3 ">
+              <h1>986</h1>
+              <h5>Mahasiswa</h5>
+            </div>
+            
+            <div class="col-md-3 ">
+              <h1>73</h1>
+              <h5>Dosen</h5>
+            </div>
+            
+            <div class="col-md-3 ">
+              <h1>10</h1>
+              <h5>Lab. Komputer</h5>
+            </div>
+            
+            <div class="col-md-3">
+              <h1>8</h1>
+              <h5>Program Studi</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center py-5">
+          <h4>MITRA KAMI</h4>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="https://ti.pnp.ac.id/wp-content/uploads/elementor/thumbs/Microsoft-Academy-Logo1-pjbyvmmyq0ub88xwe3vopmbzitv6go1pz8hvsnmsy8.png" class="rounded mx-auto d-block" alt="">
+            </div>
+            <div class="col-md-3">
+
+              <img src="https://ti.pnp.ac.id/wp-content/uploads/elementor/thumbs/Cisco-Academi-pjbywcygccjd3cbgkqo5we0zcvjqf8yghs33gt6u9g.jpg" class="rounded mx-auto d-block" alt="...">
+            </div>
+            <div class="col-md-3">
+              <img src="https://ti.pnp.ac.id/wp-content/uploads/elementor/thumbs/logo_aws-educate_light.8a107f05996892b795db30104d5fb968d4619246-pjbyweu4s7jo8z1ruaq3v44bjfqf3cj12lsnfhno28.png" class="rounded mx-auto d-block" alt="...">
+
+            </div>
+            <div class="col-md-3">
+              <img src="https://ti.pnp.ac.id/wp-content/uploads/elementor/thumbs/mikrotik-academy-logo-pjbywgpsuwxd6bvbo0sjvx9nmesxd5q1bb5gnvkkbq.jpg" class="rounded mx-auto d-block" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="container ">
+          <div class="row py-4">
+            <div class="col-md-3">
+
+              <img src="">
+            </div>
+            <div class="col-md-3">
+
+              <img src="https://ti.pnp.ac.id/wp-content/uploads/elementor/thumbs/oracle-academy-logo1-800x343-2-pjbzq0r3p6g5ouea2nmam0m11eu218hyjooqpojsme.png" class="rounded mx-auto d-block" alt="...">
+            </div>
+            <div class="col-md-3">
+              <img src="https://ti.pnp.ac.id/wp-content/uploads/elementor/thumbs/redhat-academy-qkc459ruheb7dbxc5wwfksnw7woe9y9h4hxawuwso6.png" class="rounded mx-auto d-block" alt="...">
+
+            </div>
+            <div class="col-md-3">
+              <img src="">
+            </div>
+          </div>
+        </div>
+        <div class="bg-info">
+          <div class="container py-4 ">
+            <div class="row">
+              <div class="col-lg-6 px-4 ">
+                <div class=" row">
+                  <div class="card bg-dark text-light px-3 py-2">
+                    <h4>Pengumunan</h4>
+                    <hr>
+                    <div class="row py-4">
+                      <div class="col-md-6">
+                        <img src="https://i.pinimg.com/236x/1a/84/35/1a8435b262f70dc441a52bf15a9c620d.jpg"  class="img-resolution " alt="...">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="https://i.pinimg.com/236x/1a/84/35/1a8435b262f70dc441a52bf15a9c620d.jpg"  class="img-resolution" alt="...">
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2 col-3 mx-auto">
+                      <a href="https://ti.pnp.ac.id/index.php/pengumuman/" class="btn btn-primary ">Lainnya</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-lg-6 px-4">
+                <div class="row">
+                  <div class="card bg-dark text-light py-2 px-3">
+                    <h4>Prestasi Mahasiswa</h4>
+                    <hr>
+                    <div class="row py-4">
+                      <div class="col-md-6">
+                        <img src="https://i.pinimg.com/236x/1a/84/35/1a8435b262f70dc441a52bf15a9c620d.jpg"  class="img-resolution" alt="...">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="https://i.pinimg.com/236x/1a/84/35/1a8435b262f70dc441a52bf15a9c620d.jpg"  class="img-resolution" alt="...">
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2 col-3 mx-auto">
+                      <a href="https://ti.pnp.ac.id/index.php/prestasi-mahasiswa/" class="btn btn-primary ">Lainnya</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <!-- Footer -->
+      <div class=" bg-dark text-light pt-2 pb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 ">
+            <img src="https://ti.pnp.ac.id/wp-content/uploads/2022/01/logoti3-white.png" alt="">
+              <p>Kampus Politeknik Negeri Padang,</p>
+              <p> Limau Manis Padang</p>
+              <p>Kode Pos : 25176</p>
+              <p>Phone : 0751-72590</p>
+            </div>
+            <div class="col-lg-3">
+              <p>OUR ACADEMY</p>
+              <li>Mikrotik Academy</li>
+              <li>Redhat Academy</li>
+              <li>Oracle Academy</li>
+              <li>AWS Educate</li>
+              <li>Cisco Networking Academy</li>
+              <li>Microsoft IT Academy</li>
+            </div>
+            <div class="col-lg-3">
+              <p>USEFULL LINK</p>
+              <li>Akademik</li>
+              <li>Akreditasi</li>
+              <li>Fasilitas</li>
+              <li>Jurnal</li>
+              <li>Saran dan Masukan</li>
+            </div>
+            <div class="col-lg-3">
+              <p>Follow Us</p>
+              <i class="bi bi-facebook me-2"></i>
+              <i class="bi bi-instagram me-2"></i>
+              <i class="bi bi-youtube me-2" ></i>
+              <i class="bi bi-tiktok me-2"></i>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <p>Jurusan Teknologi Informasi by Dika Jefrianto</p>
+            <div>
+              <i class="bi bi-facebook me-2"></i>
+              <i class="bi bi-instagram me-2"></i>
+              <i class="bi bi-youtube me-2" ></i>
+              <i class="bi bi-tiktok me-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
